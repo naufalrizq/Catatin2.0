@@ -1,0 +1,62 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Catatin</string>
+
+    <string name="title_hint">Title</string>
+    <string name="desc_hint" tools:ignore="TypographyEllipsis">Type something...</string>
+    <string name="save_notes_btn">Save notes</string>
+    <string name="desc_text">This is demo test</string>
+    <string name="empty_title_msg">Your title is empty</string>
+    <string name="empty_desc_msg">Your description is empty</string>
+    <string name="note_saved_msg">Note saved successfully</string>
+    <string name="note_updated_msg">Note updated successfully!</string>
+    <string name="note_deleted_msg">Successfully deleted notes</string>
+    <string name="undo">Undo</string>
+
+    <!-- Details menu -->
+    <string name="text_share">Share as Text</string>
+    <string name="text_share_image">Share as Image</string>
+    <string name="text_delete">Delete</string>
+
+    <!-- Share notes -->
+    <string name="share_message">\"%s\"\n\n Note: %s. \n\nVisit: https://github.com/naufalrizq/Catatin</string>
+    <string name="text_no_notes">No Notes Found!</string>
+    <string name="text_empty_state_description">There are no notes here. Try adding few notes</string>
+    <string name="text_ui_mode">UI mode</string>
+    <string name="menu_about">About</string>
+
+    <!-- About us -->
+    <string name="text_about_title">About</string>
+    <string name="text_about_desc">Welcome to Notes app! With this app, you can create, edit, delete and organize your notes.</string>
+    <string name="text_about_visit_title">Visit</string>
+    <string name="text_about_visit_url"><u>https://github.com/naufalrizq/Catatin</u></string>
+    <string name="text_app_version">v%s (%d)</string>
+
+    <!--    Confirm Delete-->
+    <string name="konfirmasi_hapus">Yakin ingin menghapus note?</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Hapus Note</string>
+    <string name="api_fetch">API Fetch</string>
+    <string name="notes">Notes</string>
+    <string name="push_notification">Notification</string>
+
+    <!--    API-->
+    <string name="price">Price</string>
+    <string name="id">Id</string>
+    <string name="type">Type</string>
+    <string name="search">Search</string>
+    <string name="no_internet">No internet</string>
+    <string name="connected">Connected</string>
+    <string name="lost_connection">Lost connection</string>
+
+    <!--    Notification-->
+    <string name="title">Title</string>
+    <string name="message">Message</string>
+    <string name="schedule_notification">Schedule Notification</string>
+    <string name="channel_name">Updater</string>
+    <string name="channel_desc">Jangan Lupa Cek Aplikasimu</string>
+    <string name="notif_title">Ada real estate baru!</string>
+    <string name="notif_text">Cek sekarang biar nggak ketinggalan!</string>
+
+
+
+</resources>

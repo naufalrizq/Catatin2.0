@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2-native-mt">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-android/1.5.2-native-mt/8c4a388c0ce3fd408014ca46539b72b603a89b1f/kotlinx-coroutines-android-1.5.2-native-mt.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-android/1.5.2-native-mt/c94e08bd8c9465fc94910060ea91c7ac5c96b012/kotlinx-coroutines-android-1.5.2-native-mt-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-android/1.5.2-native-mt/421224d598b0a893de60401c93e3dfa2ae0d7025/kotlinx-coroutines-android-1.5.2-native-mt-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

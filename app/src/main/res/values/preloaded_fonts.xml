@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/montserrat_alternates</item>
+        <item>@font/montserrat_alternates_bold</item>
+        <item>@font/montserrat_alternates_light</item>
+        <item>@font/spartan_bold</item>
+        <item>@font/work_sans</item>
+        <item>@font/work_sans_bold</item>
+    </array>
+</resources>

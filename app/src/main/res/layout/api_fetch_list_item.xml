@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/real_estate_cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="@dimen/default_margin"
+    app:cardCornerRadius="@dimen/default_margin_small"
+    app:cardBackgroundColor="@color/white"
+    android:layout_margin="@dimen/default_margin_mini">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp">
+
+      <androidx.appcompat.widget.AppCompatImageView
+          android:id="@+id/real_estate_iv"
+          android:layout_width="300dp"
+          android:layout_height="200dp"
+          android:layout_marginTop="@dimen/default_margin_large"
+          android:layout_marginVertical="@dimen/default_margin_large"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="@dimen/default_margin_mini"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserrat_alternates_bold"
+            android:gravity="center"
+            android:maxLines="1"
+            android:padding="@dimen/default_margin_small"
+            android:text="@string/price"
+            app:layout_constraintBottom_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_margin"
+            android:elevation="@dimen/default_margin_mini"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:fontFamily="@font/montserrat_alternates_bold"
+            android:padding="@dimen/default_margin_small"
+            android:text="@string/id"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_price"/>
+        <!--Masukkin ini didalem appCompat atas sama bawah-->
+        <!--        android:textColor="@color/white"-->
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_margin"
+            android:elevation="@dimen/default_margin_mini"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:fontFamily="@font/montserrat_alternates_bold"
+            android:padding="@dimen/default_margin_small"
+            android:text="@string/type"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_id"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
