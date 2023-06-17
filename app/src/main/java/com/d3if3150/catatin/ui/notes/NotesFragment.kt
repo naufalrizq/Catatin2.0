@@ -54,13 +54,13 @@ class NotesFragment : Fragment(R.layout.notes_fragment) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-//        viewModel.scheduleUpdater(requireActivity().application)
         setHasOptionsMenu(true)
         setUpRV()
         initViews()
         observeNotes()
         initSwipeToDeleteNote()
         onClickNotes()
+                viewModel.scheduleUpdater(requireActivity().application)
     }
 
     private fun onClickNotes() {

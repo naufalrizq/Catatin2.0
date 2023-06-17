@@ -3,6 +3,9 @@ package com.d3if3150.catatin.ui.notes
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
+import androidx.work.ExistingWorkPolicy
+import androidx.work.OneTimeWorkRequestBuilder
+import androidx.work.WorkManager
 //import androidx.work.ExistingWorkPolicy
 //import androidx.work.OneTimeWorkRequestBuilder
 //import androidx.work.WorkManager
@@ -16,6 +19,7 @@ import com.d3if3150.catatin.datastore.UIModeDataStore
 import com.d3if3150.catatin.model.Notes
 import com.d3if3150.catatin.repo.NotesRepo
 import com.d3if3150.catatin.utils.NotesViewState
+import com.d3if3150.catatin.utils.network.UpdateWorker
 //import com.d3if3150.catatin.utils.network.UpdateWorker
 import dagger.hilt.android.lifecycle.HiltViewModel
 import java.util.concurrent.TimeUnit
@@ -86,14 +90,14 @@ class NotesViewModel @Inject internal constructor(
 
     }
 
-//    fun scheduleUpdater(app: Application) {
-//        val request = OneTimeWorkRequestBuilder<UpdateWorker>()
-//            .setInitialDelay(1, TimeUnit.MINUTES)
-//            .build()
-//        WorkManager.getInstance(app).enqueueUniqueWork(
-//            UpdateWorker.WORK_NAME,
-//            ExistingWorkPolicy.REPLACE,
-//            request
-//        )
-//    }
+    fun scheduleUpdater(app: Application) {
+        val request = OneTimeWorkRequestBuilder<UpdateWorker>()
+            .setInitialDelay(1, TimeUnit.MINUTES)
+            .build()
+        WorkManager.getInstance(app).enqueueUniqueWork(
+            UpdateWorker.WORK_NAME,
+            ExistingWorkPolicy.REPLACE,
+            request
+        )
+    }
 }
