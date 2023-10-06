@@ -4,5 +4,3 @@ Sebuah apps yang berfungsi untuk membuat, mengedit, dan mengorganize catatan. Di
 Nama :  Naufal Rizq Ramadhan
 NIM  :  6706213150
 ```
-
-
